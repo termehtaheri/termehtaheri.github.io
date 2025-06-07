@@ -1,0 +1,5 @@
+title: "Termeh Taheri"
+baseurl: ""    # use root
+url: "https://termehtaheri.github.io"
+markdown: kramdown
+permalink: pretty
