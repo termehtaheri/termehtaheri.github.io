@@ -35,7 +35,8 @@ body {
     font-weight: bold;
   }
   
-  nav a:hover {
+  nav a:hover,
+  nav a.active {
     color: #0070f3;
   }
   
