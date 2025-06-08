@@ -80,6 +80,10 @@ h2 {
   font-weight: 600;
 }
 
+p {
+    font-weight: 400; 
+  }
+
 /* Footer */
 footer {
   background: #2b2b2b;
