@@ -5,6 +5,7 @@ permalink: /about/
 ---
 ## About
 I'm currently a Master's student in Artificial Intelligence at [Queen Mary University of London](https://www.qmul.ac.uk/), studying as a [Chevening Scholar](https://www.chevening.org/).  
+
 My current research explores how multimodal deep learning models can reason about sound. I'm interested in using symbolic representations to help machines move beyond hearing and toward understanding, especially in systems that bridge audio and language in interpretable ways.
 
 Before moving to London, I worked for two years as a software engineer, building backend systems and REST APIs for AI-driven products. I focused on designing clean architectures, developing secure and optimized REST APIs, and continuously improving the codebase through refactoring and performance tuning.
