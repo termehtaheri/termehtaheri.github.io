@@ -17,7 +17,7 @@ I earned my Bachelor's degree in Computer Engineering from Noshirvani University
 ### 🗞️ News
   
 - **Sep 2025** – Selected for an oral spotlight presentation of *SAR-LM* at the [LLM4MA Workshop, ISMIR 2025](https://m-a-p.ai/LLM4Music/) in Daejeon, Korea  
-- **Sep 2025** – Graduated with an MSc in Artificial Intelligence from Queen Mary University of London
+- **Sep 2025** – Graduated with Distinction in MSc Artificial Intelligence from Queen Mary University of London
 - **Jul 2025** – Started working as an AI Engineer at the London College of Business Studies  
 - **Sep 2024** – Began MSc in Artificial Intelligence at Queen Mary University of London  
 - **Jul 2024** – Awarded the [Chevening Scholarship](https://www.chevening.org/)  
