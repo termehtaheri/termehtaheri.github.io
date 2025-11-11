@@ -12,8 +12,8 @@ I am especially interested in how AI can connect sound, language, and music to b
 
 ### 📄 Selected Publications
 
-- **Taheri, T.**, Ma, Y., & Benetos, E. (2025). [*SAR-LM: Symbolic Audio Reasoning with Large Language Models*](https://openreview.net/pdf?id=krBCxIE9bs). *Proceedings of the 1st Workshop on Large Language Models for Music & Audio (LLM4MA), ISMIR 2025* (oral spotlight presentation).  
-  This work introduces SAR-LM, a modular pipeline that translates audio into symbolic, interpretable features (speech transcripts, sound events, music notes, chords) for reasoning with LLMs. Evaluated on three benchmarks (MMAU, MMAR, OmniBench), SAR-LM achieves competitive results while offering transparent error analysis. The paper highlights interpretability as its primary contribution and is also **under review at ICASSP 2026**.
+- **Taheri, T.**, Ma, Y., & Benetos, E. (2025). [*SAR-LM: Symbolic Audio Reasoning with Large Language Models*](https://arxiv.org/abs/2511.06483). *arXiv preprint arXiv:2511.06483*. [[Code]](https://github.com/termehtaheri/SAR-LM)  
+  This work introduces **SAR-LM**, a modular pipeline that translates audio into symbolic, interpretable features (speech transcripts, sound events, music notes, chords) for reasoning with large language models (LLMs). Evaluated on three benchmarks (MMAU, MMAR, OmniBench), SAR-LM achieves competitive results while offering transparent error analysis. The paper highlights interpretability as its primary contribution and is also **under review at ICASSP 2026**.
 
 - **Taheri, M.**, & Omranpour, H. (2024). [*Breast cancer prediction by ensemble meta-feature space generator based on deep neural network*](https://www.sciencedirect.com/science/article/pii/S1746809423008157). *Biomedical Signal Processing and Control, 87*, 105382.  
   This work proposes EMFSG-Net, an ensemble meta-feature space generator designed to improve breast cancer classification from ultrasound images. It achieved 97.96% accuracy and a 96.2% F1-score on the BUSI dataset, outperforming existing models.
