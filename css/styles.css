@@ -207,14 +207,15 @@ footer a:hover {
   justify-content: center;
 }
 
+/* Turn body into a 3-row layout: header, main, footer */
 body.home-page {
-  height: 100vh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
 }
 
-/* Main should take available space between header and footer */
+/* Remove padding from main on home page */
 body.home-page main {
   flex: 1;
   padding: 0;
@@ -223,22 +224,32 @@ body.home-page main {
   flex-direction: column;
 }
 
-/* The GIF container fills the remaining vertical space */
+/* Make the GIF background fill ONLY the available space */
 body.home-page .home-bg {
   flex: 1;
-  height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  background: url('/assets/LLM4MA.gif') center center / cover no-repeat fixed;
+  padding: 0;           /* remove all padding */
+  margin: 0;
 }
 
-/* Remove waveform divider on home */
+/* Center the inner content tightly */
+body.home-page .home-inner {
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  padding: 20px; /* small breathing room */
+}
+
+/* Remove waveform on home page */
 body.home-page .audio-wave {
   display: none;
 }
 
-/* Footer stays visible but does not create scroll */
+/* Footer stays at the bottom without causing scroll */
 body.home-page footer {
+  flex-shrink: 0;
   position: relative;
-  bottom: 0;
 }
