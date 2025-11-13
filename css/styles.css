@@ -4,15 +4,16 @@
   --bg-dark: #0d0d0f;
   --bg-card: #16161a;
   --text-light: #e4e4e7;
-  --text-muted: #bbbbbb;
+  --text-muted: #bdbdbd;
   --accent: #4dd4c0;
 }
 
+/* GLOBAL */
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: #000;
-  color: #eee;
+  background: #000000;
+  color: var(--text-light);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -39,8 +40,8 @@ header ul {
 
 header a {
   color: var(--text-light);
-  text-decoration: none;
   font-weight: 600;
+  text-decoration: none;
   transition: 0.25s;
 }
 
@@ -53,63 +54,54 @@ header a:hover {
 main {
   flex: 1;
   padding: 40px 20px;
-  max-width: 900px;
-  margin: 0 auto;
 }
 
-/* --- HOME HERO --- */
+/* ---------- HOME ---------- */
 #home {
   width: 100%;
   display: flex;
   justify-content: center;
-  text-align: center;
   padding-top: 40px;
 }
 
 .home-inner {
   max-width: 700px;
   width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
+/* Profile Photo */
 .profile-pic {
   width: 260px;
   height: 260px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid var(--accent);
-  box-shadow: 0 0 20px rgba(77, 212, 192, 0.25);
   display: block;
   margin: 40px auto 0 auto;
+  box-shadow: 0 0 25px rgba(77, 212, 192, 0.28);
 }
 
-/* HEADINGS */
+/* Headings */
 h1, h2, h3 {
-  font-weight: 600;
   color: #ffffff;
+  font-weight: 600;
 }
 
-/* HOME CENTERED */
-#home h1,
-#home h2,
-#home h3 {
+/* Home centered text */
+#home h1, #home h2, #home h3 {
   text-align: center;
 }
 
-/* LEFT ON OTHER PAGES */
-main h1,
-main h2,
-main h3:not(#home h3) {
-  text-align: left;
-}
-
-/* PARAGRAPHS */
+/* Text */
 p {
   font-size: 1.15rem;
-  line-height: 1.6;
-  color: #e9e9e9;
+  line-height: 1.65;
+  color: var(--text-muted);
 }
 
-/* LINKS */
+/* Links */
 a {
   color: var(--accent);
   text-decoration: none;
@@ -121,37 +113,32 @@ a:hover {
   text-shadow: 0 0 8px var(--accent);
 }
 
-/* CARD BLOCKS */
+/* ---------- PUBLICATION CARDS ---------- */
 .paper-block {
   background: var(--bg-card);
-  padding: 1.5rem 1.8rem;
+  padding: 1.6rem 1.9rem;
   border-radius: 12px;
-  margin-bottom: 2rem;
   border: 1px solid #222;
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.35);
+  margin-bottom: 2.5rem; /* more spacing between papers */
 }
 
-/* FOOTER */
-footer {
-  background: #131316;
-  padding: 1rem 0;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  border-top: 1px solid #222;
+.paper-block h3 {
+  margin-top: 0;
 }
 
-footer a {
-  color: #bbb;
-  font-size: 1.5rem;
-  transition: 0.25s;
+.paper-meta {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
 }
 
-footer a:hover {
-  color: var(--accent);
+.paper-links a {
+  margin-right: 12px;
+  font-weight: 600;
 }
 
-/* --- Clean Research Directions --- */
+/* ---------- RESEARCH DIRECTIONS ---------- */
 #research-directions {
   list-style: none;
   padding-left: 0;
@@ -160,8 +147,8 @@ footer a:hover {
 
 #research-directions li {
   margin-bottom: 14px;
+  font-size: 1.06rem;
   line-height: 1.55;
-  font-size: 1.05rem;
   color: #e6e6e6;
   padding-left: 22px;
   position: relative;
@@ -180,4 +167,29 @@ footer a:hover {
 #research-directions strong {
   color: #ffffff;
   font-weight: 600;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background: #131316;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  border-top: 1px solid #222;
+}
+
+footer a {
+  color: #bbbbbb;
+  font-size: 1.5rem;
+  transition: 0.25s;
+}
+
+footer a:hover {
+  color: var(--accent);
+}
+
+/* ---------- HOME GIF BACKGROUND ---------- */
+.home-bg {
+  background: url('/assets/LLM4MA.gif') center center / cover no-repeat fixed !important;
 }
