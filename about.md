@@ -18,7 +18,7 @@ Before moving to London, I spent two years as a software engineer designing REST
 
 ### 🗞️ News
 
-- **Sep 2025** — *SAR-LM* selected for oral presentation at the LLM4MA Workshop, ISMIR 2025  
-- **Sep 2025** — Graduated with Distinction (MSc AI), Queen Mary University of London  
+- **Sep 2025** — Graduated with Distinction (MSc AI), Queen Mary University of London
+- **Sep 2025** — *SAR-LM* selected for oral presentation at the LLM4MA Workshop, ISMIR 2025    
 - **Jul 2025** — Joined London College of Business Studies as an AI Engineer  
 - **Jul 2024** — Awarded the Chevening Scholarship for postgraduate study in the UK  
