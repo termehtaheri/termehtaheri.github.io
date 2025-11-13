@@ -210,34 +210,35 @@ footer a:hover {
 body.home-page {
   height: 100vh;
   overflow: hidden;
-}
-
-/* Make the GIF container fill screen and center content */
-body.home-page .home-bg {
-  height: 100vh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-top: 0;
 }
 
-/* Remove extra padding from <main> on home page */
+/* Main should take available space between header and footer */
 body.home-page main {
+  flex: 1;
   padding: 0;
   margin: 0;
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
-/* Remove empty wave div on home page */
+/* The GIF container fills the remaining vertical space */
+body.home-page .home-bg {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Remove waveform divider on home */
 body.home-page .audio-wave {
   display: none;
 }
 
-/* Footer anchored at bottom without creating scroll */
+/* Footer stays visible but does not create scroll */
 body.home-page footer {
-  margin-top: auto;
+  position: relative;
+  bottom: 0;
 }
