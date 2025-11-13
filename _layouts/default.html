@@ -5,24 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
 
-  <!-- Font Awesome for social icons -->
+  <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
   <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- HOME PAGE GIF BACKGROUND -->
-  <style>
-    #home.home-bg {
-      background: url('{{ "/assets/LLM4MA.gif" | relative_url }}') no-repeat center center fixed;
-      background-size: cover;
-      filter: brightness(1.35); /* Make GIF visible */
-      padding-top: 80px;        /* Prevent header overlap */
-      padding-bottom: 120px;
-    }
-  </style>
-
 </head>
+
 <body>
   {% include header.html %}
 

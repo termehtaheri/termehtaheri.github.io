@@ -4,7 +4,7 @@
   --bg-dark: #0d0d0f;
   --bg-card: #16161a;
   --text-light: #e4e4e7;
-  --text-muted: #a1a1aa;
+  --text-muted: #bbbbbb;
   --accent: #4dd4c0;
 }
 
@@ -57,7 +57,20 @@ main {
   margin: 0 auto;
 }
 
-/* HOME IMAGE */
+/* --- HOME HERO --- */
+#home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.home-inner {
+  max-width: 700px;
+  width: 100%;
+}
+
 .profile-pic {
   width: 260px;
   height: 260px;
@@ -72,10 +85,10 @@ main {
 /* HEADINGS */
 h1, h2, h3 {
   font-weight: 600;
-  color: #ffffff !important; /* clean white */
+  color: #ffffff;
 }
 
-/* CENTER ONLY ON HOME */
+/* HOME CENTERED */
 #home h1,
 #home h2,
 #home h3 {
@@ -85,7 +98,7 @@ h1, h2, h3 {
 /* LEFT ON OTHER PAGES */
 main h1,
 main h2,
-main h3 {
+main h3:not(#home h3) {
   text-align: left;
 }
 
@@ -93,7 +106,7 @@ main h3 {
 p {
   font-size: 1.15rem;
   line-height: 1.6;
-  color: #e9e9e9 !important;
+  color: #e9e9e9;
 }
 
 /* LINKS */
@@ -138,21 +151,7 @@ footer a:hover {
   color: var(--accent);
 }
 
-/* --- FIX CURRENT RESEARCH DIRECTIONS LIST --- */
-#research-directions li {
-  margin-bottom: 10px;
-  line-height: 1.55;
-  font-weight: 350;
-  color: #dcdcdc;
-}
-
-#research-directions b,
-#research-directions strong {
-  font-weight: 550;
-  color: #fff;
-}
-
-
+/* --- Clean Research Directions --- */
 #research-directions {
   list-style: none;
   padding-left: 0;
@@ -168,7 +167,6 @@ footer a:hover {
   position: relative;
 }
 
-/* Mint custom bullet */
 #research-directions li::before {
   content: "•";
   position: absolute;
