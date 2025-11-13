@@ -3,25 +3,64 @@ layout: default
 title: Research
 permalink: /research/
 ---
+
 ## Research
 
-My research focuses on multimodal machine learning and audio reasoning with large language models.  
-I am especially interested in how AI can connect sound, language, and music to build interpretable systems that move beyond recognition toward deeper understanding.
+My work focuses on audio and multimodal machine learning, with an emphasis on audio reasoning, music generation systems, and evaluation frameworks for next-generation LLMs.  
+I am broadly interested in how AI can connect sound, music, and language to build models that are interpretable, reliable, and useful for real creative applications.
 
 ---
 
-### 📄 Selected Publications
+## Current Research Directions
 
-- **Taheri, T.**, Ma, Y., & Benetos, E. (2025). [*SAR-LM: Symbolic Audio Reasoning with Large Language Models*](https://arxiv.org/abs/2511.06483). *arXiv preprint arXiv:2511.06483*. [[Code]](https://github.com/termehtaheri/SAR-LM)  
-  This work introduces **SAR-LM**, a modular pipeline that translates audio into symbolic, interpretable features (speech transcripts, sound events, music notes, chords) for reasoning with large language models (LLMs). Evaluated on three benchmarks (MMAU, MMAR, OmniBench), SAR-LM achieves competitive results while offering transparent error analysis. The paper highlights interpretability as its primary contribution and was selected for oral presentation at the LLM4MA Workshop, ISMIR 2025.
-
-
-- **Taheri, M.**, & Omranpour, H. (2024). [*Breast cancer prediction by ensemble meta-feature space generator based on deep neural network*](https://www.sciencedirect.com/science/article/pii/S1746809423008157). *Biomedical Signal Processing and Control, 87*, 105382.  
-  This work proposes EMFSG-Net, an ensemble meta-feature space generator designed to improve breast cancer classification from ultrasound images. It achieved 97.96% accuracy and a 96.2% F1-score on the BUSI dataset, outperforming existing models.
-
-- Omranpour, H., Mohammadi Ledari, Z., & **Taheri, M.** (2023). [*Presentation of encryption method for RGB images based on an evolutionary algorithm using chaos functions and hash tables*](https://link.springer.com/article/10.1007/s11042-022-13734-x). *Multimedia Tools and Applications, 82*(6), 9343–9360.  
-  This paper presents a novel RGB image encryption technique that combines chaos theory, evolutionary algorithms, and cryptographic hash functions to achieve lightweight yet robust image encryption.
+- **Symbolic audio reasoning with LLMs** — how structured, human-readable representations can improve interpretability and reduce hallucinations in audio QA.  
+- **Generative music & text-to-music evaluation** — building large-scale, reproducible frameworks to measure model quality, preference, and variation.  
+- **Audio–language–vision benchmarks** — designing and contributing to multimodal datasets that stress-test perception and reasoning.  
+- **Practical ML systems** — reproducible pipelines, scalable experimentation, and deployment-ready research tooling (PyTorch, FastAPI, Docker).
 
 ---
 
-More on [Google Scholar](https://scholar.google.com/citations?hl=en&user=48n5YFgAAAAJ).
+## 📄 Selected Publications
+
+### **SAR-LM: Symbolic Audio Reasoning with Large Language Models**  
+**Taheri, T.**, Ma, Y., & Benetos, E. (2025).  
+Accepted at LLM4MA Workshop @ ISMIR 2025; under review at ICASSP 2026.  
+[Paper](https://arxiv.org/abs/2511.06483) • [Code](https://github.com/termehtaheri/SAR-LM)
+
+**Summary:**  
+SAR-LM introduces a modular pipeline that converts audio into symbolic, interpretable features (speech transcripts, sound events, notes, chords) before reasoning with LLMs.  
+Instead of relying on dense, opaque embeddings, SAR-LM provides explicit structured cues that enable transparent error analysis, stronger reasoning stability, and competitive performance on MMAU, MMAR, and OmniBench.
+
+---
+
+### **OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs**  
+Li, C., Chen, Y., Ji, Y., Xu, J., Cui, Z., … **Taheri, T.**, et al. (2025).  
+*arXiv preprint arXiv:2510.10689*.  
+[Paper](https://arxiv.org/abs/2510.10689)
+
+**Summary:**  
+OmniVideoBench is a large-scale benchmark for evaluating synergistic audio-visual reasoning in multimodal LLMs. It contains 1,000 manually verified QA pairs with step-by-step reasoning traces across 628 videos (seconds to 30 min), covering 13 question types including temporal reasoning, spatial localization, causal inference, counting, and summarization.
+
+
+---
+
+### **Breast cancer prediction by ensemble meta-feature space generator based on deep neural network**  
+**Taheri, M.**, & Omranpour, H. (2024).  
+Biomedical Signal Processing and Control, 87.  
+[Paper](https://www.sciencedirect.com/science/article/pii/S1746809423008157)
+
+Early research on deep feature fusion for medical imaging.  
+Introduced EMFSG-Net, achieving state-of-the-art performance on ultrasound datasets.
+
+---
+
+### **Presentation of encryption method for RGB images based on an evolutionary algorithm using chaos functions and hash tables**  
+Omranpour, H., Mohammadi Ledari, Z., & **Taheri, M.** (2023).  
+Multimedia Tools and Applications, 82(6).  
+[Paper](https://link.springer.com/article/10.1007/s11042-022-13734-x)
+
+A lightweight RGB image encryption algorithm combining chaos-based systems and evolutionary search, aimed at secure multimedia transmission.
+
+---
+
+More on **[Google Scholar →](https://scholar.google.com/citations?hl=en&user=48n5YFgAAAAJ)**
