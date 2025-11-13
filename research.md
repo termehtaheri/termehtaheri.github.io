@@ -9,12 +9,12 @@ permalink: /research/
 My work centers on audio and multimodal machine learning, including audio reasoning, representation learning, generative music systems, and evaluation frameworks for next-generation LLMs. I am broadly interested in how AI can connect sound, music, and language to build interpretable, reliable, and creatively useful systems.
 
 ## Current Research Directions
-
+<div id="research-directions">
 - **Symbolic audio reasoning with LLMs** — how structured, human-readable representations can improve interpretability and reduce hallucinations in audio QA.  
 - **Generative music & text-to-music evaluation** — building large-scale, reproducible frameworks to measure model quality, preference, and variation.  
 - **Audio–language–vision benchmarks** — designing and contributing to multimodal datasets that stress-test perception and reasoning.  
 - **Practical ML systems** — reproducible pipelines, scalable experimentation, and deployment-ready research tooling (PyTorch, FastAPI, Docker).
-
+</div>
 
 
 ## 📄 Selected Publications
@@ -46,8 +46,7 @@ OmniVideoBench is a large-scale benchmark for evaluating synergistic audio-visua
 Biomedical Signal Processing and Control, 87.  
 [Paper](https://www.sciencedirect.com/science/article/pii/S1746809423008157)
 
-Early research on deep feature fusion for medical imaging.  
-Introduced EMFSG-Net, achieving state-of-the-art performance on ultrasound datasets.
+Early research on deep feature fusion for medical imaging. Introduced EMFSG-Net, achieving state-of-the-art performance on ultrasound datasets.
 
 
 
