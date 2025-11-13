@@ -51,11 +51,16 @@ header a:hover {
 }
 
 /* MAIN LAYOUT */
+/* Base main: full width */
 main {
   flex: 1;
   padding: 40px 20px;
+}
+
+/* Non-home pages: centered column */
+.page-main {
   max-width: 900px;
-  margin: 0 auto;   /* centers About / Research / CV */
+  margin: 0 auto;
 }
 
 /* ---------- HOME ---------- */
@@ -92,7 +97,9 @@ h1, h2, h3 {
 }
 
 /* Home centered text */
-#home h1, #home h2, #home h3 {
+#home h1,
+#home h2,
+#home h3 {
   text-align: center;
 }
 
@@ -122,7 +129,7 @@ a:hover {
   border-radius: 12px;
   border: 1px solid #222;
   box-shadow: 0 0 15px rgba(0,0,0,0.35);
-  margin-bottom: 2.5rem; /* more spacing between papers */
+  margin-bottom: 2.5rem;
 }
 
 .paper-block h3 {
@@ -198,13 +205,4 @@ footer a:hover {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-}
-
-/* --- REMOVE BACKGROUND FROM ALL OTHER PAGES --- */
-body:not(.home-page) main {
-  background: #000000;   /* normal dark background */
-}
-
-body:not(.home-page) {
-  background: #000000 !important;
 }

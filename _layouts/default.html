@@ -15,8 +15,9 @@
 <body class="{% if page.url == '/' %}home-page{% endif %}">
   {% include header.html %}
 
-  <main>
-    <div class="audio-wave"></div>
+  <!-- On home page: plain <main> (full width for GIF)
+       On other pages: <main class="page-main"> (centered column) -->
+  <main class="{% if page.url != '/' %}page-main{% endif %}">
     {{ content }}
   </main>
 
