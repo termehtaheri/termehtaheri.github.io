@@ -9,12 +9,16 @@ permalink: /research/
 My work centers on audio and multimodal machine learning, including audio reasoning, representation learning, generative music systems, and evaluation frameworks for next-generation LLMs. I am broadly interested in how AI can connect sound, music, and language to build interpretable, reliable, and creatively useful systems.
 
 ## Current Research Directions
-<div id="research-directions">
-- **Symbolic audio reasoning with LLMs** — how structured, human-readable representations can improve interpretability and reduce hallucinations in audio QA.  
-- **Generative music & text-to-music evaluation** — building large-scale, reproducible frameworks to measure model quality, preference, and variation.  
-- **Audio–language–vision benchmarks** — designing and contributing to multimodal datasets that stress-test perception and reasoning.  
-- **Practical ML systems** — reproducible pipelines, scalable experimentation, and deployment-ready research tooling (PyTorch, FastAPI, Docker).
-</div>
+
+<ul id="research-directions">
+  <li><strong>Symbolic audio reasoning with LLMs</strong> — structured, human-readable representations that reduce hallucinations and improve interpretability in audio QA.</li>
+
+  <li><strong>Generative music & text-to-music evaluation</strong> — reproducible frameworks for model quality, preference studies, and large-scale benchmarking.</li>
+
+  <li><strong>Audio–language–vision benchmarks</strong> — multimodal datasets designed to stress-test perception, reasoning, and temporal understanding.</li>
+
+  <li><strong>Practical ML systems</strong> — scalable experimentation pipelines and deployment-ready research tooling (PyTorch, FastAPI, Docker).</li>
+</ul>
 
 
 ## 📄 Selected Publications

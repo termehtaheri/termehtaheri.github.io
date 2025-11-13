@@ -1,5 +1,5 @@
 <section id="home" class="home-bg">
-  <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Termeh Taheri">
+  <img class="profile-pic" src="{{ '/assets/profile.jpg' | relative_url }}" alt="Termeh Taheri">
 
   <h1>Termeh Taheri</h1>
 
