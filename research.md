@@ -6,9 +6,7 @@ permalink: /research/
 
 ## Research
 
-My work focuses on audio and multimodal machine learning, with an emphasis on audio reasoning, music generation systems, and evaluation frameworks for next-generation LLMs.  
-I am broadly interested in how AI can connect sound, music, and language to build models that are interpretable, reliable, and useful for real creative applications.
-
+My work centers on audio and multimodal machine learning, including audio reasoning, representation learning, generative music systems, and evaluation frameworks for next-generation LLMs. I am broadly interested in how AI can connect sound, music, and language to build interpretable, reliable, and creatively useful systems.
 ---
 
 ## Current Research Directions
