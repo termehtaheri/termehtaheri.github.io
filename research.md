@@ -24,8 +24,7 @@ My work centers on audio and multimodal machine learning, including audio reason
 
 <div class="paper-block">
 <h3>SAR-LM: Symbolic Audio Reasoning with Large Language Models</h3>
-<p><strong>Taheri, T.</strong>, Ma, Y., & Benetos, E. (2025).<br>
-Accepted at LLM4MA Workshop @ ISMIR 2025; under review at ICASSP 2026.</p>
+<p><strong>Taheri, T.</strong>, Ma, Y., & Benetos, E. (2025). Accepted at LLM4MA Workshop @ ISMIR 2025; under review at ICASSP 2026.</p>
 
 <p><a href="https://arxiv.org/abs/2511.06483" target="_blank">Paper</a> • 
 <a href="https://github.com/termehtaheri/SAR-LM" target="_blank">Code</a></p>
@@ -41,8 +40,7 @@ performance on MMAU, MMAR, and OmniBench.
 
 <div class="paper-block">
 <h3>OmniVideoBench: Towards Audio–Visual Understanding Evaluation for Omni MLLMs</h3>
-<p>Li, C., Chen, Y., Ji, Y., Xu, J., Cui, Z., … <strong>Taheri, T.</strong>, et al. (2025).<br>
-<i>arXiv preprint arXiv:2510.10689</i></p>
+<p>Li, C., Chen, Y., Ji, Y., Xu, J., Cui, Z., … <strong>Taheri, T.</strong>, et al. (2025).Under review at CVPR 2026</p>
 
 <p><a href="https://arxiv.org/abs/2510.10689" target="_blank">Paper</a></p>
 
@@ -57,14 +55,12 @@ inference, counting, and summarization.
 
 <div class="paper-block">
 <h3>Breast cancer prediction by ensemble meta-feature space generator based on deep neural network</h3>
-<p><strong>Taheri, M.</strong>, & Omranpour, H. (2024).<br>
-Biomedical Signal Processing and Control.</p>
+<p><strong>Taheri, M.</strong>, & Omranpour, H. (2024). Biomedical Signal Processing and Control.</p>
 
 <p><a href="https://www.sciencedirect.com/science/article/pii/S1746809423008157" target="_blank">Paper</a></p>
 
 <strong>Summary:</strong><br>
-Early research on deep feature fusion for medical imaging. Introduced EMFSG-Net, 
-achieving state-of-the-art performance on ultrasound breast cancer datasets.
+A meta-feature generator for breast ultrasound classification that learns an enhanced feature space without relying on data augmentation. EMFSG-Net reduces overfitting, handles imbalanced datasets, and outperforms prior deep learning approaches on the BUSI benchmark (97.96% accuracy, 96.2% F1).
 </div>
 
 ---
@@ -77,8 +73,7 @@ Multimedia Tools and Applications.</p>
 <p><a href="https://link.springer.com/article/10.1007/s11042-022-13734-x" target="_blank">Paper</a></p>
 
 <strong>Summary:</strong><br>
-A lightweight chaos-based image encryption method combining evolutionary search and 
-cryptographic hashing for secure multimedia transmission.
+A chaos-enhanced encryption scheme using evolutionary optimization and hash-initialized logistic mapping. Delivers high entropy, fast computation, and strong robustness against differential and plaintext attacks.
 </div>
 
 
