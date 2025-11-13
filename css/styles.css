@@ -200,11 +200,14 @@ footer a:hover {
 
 /* ---------- HOME GIF BACKGROUND ---------- */
 .home-bg {
-  background: url('/assets/LLM4MA.gif') center center / cover no-repeat fixed;
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
+  background: url('/assets/LLM4MA.gif') center center / cover no-repeat fixed;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 /* Turn body into a 3-row layout: header, main, footer */
