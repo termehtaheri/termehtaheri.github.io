@@ -16,7 +16,7 @@ Before moving to London, I spent two years as a software engineer designing REST
 
 ---
 
-## 🗞️ News
+### 🗞️ News
 
 - **Sep 2025** — *SAR-LM* selected for oral presentation at the LLM4MA Workshop, ISMIR 2025  
 - **Sep 2025** — Graduated with Distinction (MSc AI), Queen Mary University of London  
