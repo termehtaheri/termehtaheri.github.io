@@ -5,20 +5,20 @@
   --bg-card: #16161a;
   --text-light: #e4e4e7;
   --text-muted: #a1a1aa;
-  --accent: #4dd4c0; /* audio-mint color */
+  --accent: #4dd4c0;
 }
 
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: var(--bg-dark);
-  color: var(--text-light);
-  min-height: 100vh;
+  background: #000;
+  color: #eee;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
-/* Navigation */
+/* NAVIGATION */
 header nav {
   background: #131316;
   padding: 1rem 0;
@@ -49,7 +49,7 @@ header a:hover {
   text-shadow: 0 0 6px var(--accent);
 }
 
-/* Main Layout */
+/* MAIN LAYOUT */
 main {
   flex: 1;
   padding: 40px 20px;
@@ -57,7 +57,7 @@ main {
   margin: 0 auto;
 }
 
-/* Home Image */
+/* HOME IMAGE */
 #home img {
   width: 260px;
   height: 260px;
@@ -68,30 +68,34 @@ main {
   margin-top: 40px;
 }
 
-/* Headings */
+/* HEADINGS */
 h1, h2, h3 {
   font-weight: 600;
-  text-align: center;
   color: var(--text-light);
 }
 
-h1 {
-  font-size: 2.4rem;
+/* CENTER ONLY ON HOMEPAGE */
+#home h1,
+#home h2,
+#home h3 {
+  text-align: center;
 }
 
-h2 {
-  font-size: 1.8rem;
-  margin-top: 3rem;
+/* LEFT ON ALL OTHER PAGES */
+main h1,
+main h2,
+main h3 {
+  text-align: left;
 }
 
-/* Paragraphs */
+/* PARAGRAPHS */
 p {
   font-size: 1.15rem;
   line-height: 1.6;
   color: var(--text-muted);
 }
 
-/* Links */
+/* LINKS */
 a {
   color: var(--accent);
   text-decoration: none;
@@ -103,8 +107,8 @@ a:hover {
   text-shadow: 0 0 8px var(--accent);
 }
 
-/* Card-style containers on research page */
-section, .paper-block {
+/* CARD BLOCKS FOR RESEARCH ONLY */
+.paper-block {
   background: var(--bg-card);
   padding: 1.5rem 1.8rem;
   border-radius: 12px;
@@ -113,7 +117,7 @@ section, .paper-block {
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 
-/* Footer */
+/* FOOTER */
 footer {
   background: #131316;
   padding: 1rem 0;
@@ -131,26 +135,4 @@ footer a {
 
 footer a:hover {
   color: var(--accent);
-}
-
-.audio-gif {
-  width: 240px;
-  display: block;
-  margin: 20px auto 30px auto;
-  opacity: 0.9;
-  border-radius: 8px;
-}
-
-.audio-wave {
-  width: 100%;
-  height: 70px;
-  background: linear-gradient(
-    90deg,
-    rgba(77,212,192,0.1),
-    rgba(77,212,192,0.4),
-    rgba(77,212,192,0.1)
-  );
-  mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
-  margin-bottom: 40px;
-  opacity: 0.7;
 }

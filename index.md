@@ -1,11 +1,9 @@
-<section id="home">
+<section id="home" class="home-bg">
   <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Termeh Taheri">
 
   <h1>Termeh Taheri</h1>
 
   <h3 class="tagline">Audio Reasoning • Multimodal ML • Generative Music Systems</h3>
-
-  <img class="audio-gif" src="{{ '/assets/visualizer.gif' | relative_url }}" alt="Audio Visualizer">
 
   <p>
     I am an AI Engineer and researcher based in London, with a Master’s degree in Artificial Intelligence from 
