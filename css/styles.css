@@ -256,3 +256,25 @@ body.home-page footer {
   flex-shrink: 0;
   position: relative;
 }
+
+@media (max-width: 768px) {
+  body.home-page {
+    overflow: auto;       
+    height: auto;         
+  }
+
+  body.home-page main {
+    flex: unset;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  body.home-page .home-bg {
+    height: auto;
+    min-height: 100vh;      
+    align-items: flex-start; 
+    padding-top: 80px;      
+    padding-bottom: 40px;   
+    background-attachment: scroll;
+  }
+}
