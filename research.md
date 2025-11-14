@@ -40,7 +40,7 @@ performance on MMAU, MMAR, and OmniBench.
 
 <div class="paper-block">
 <h3>OmniVideoBench: Towards Audio–Visual Understanding Evaluation for Omni MLLMs</h3>
-<p>Li, C., Chen, Y., Ji, Y., Xu, J., Cui, Z., … <strong>Taheri, T.</strong>, et al. (2025).Under review at CVPR 2026</p>
+<p>Li, C., Chen, Y., Ji, Y., Xu, J., Cui, Z., … <strong>Taheri, T.</strong>, et al. (2025).Under review at ICLR 2026</p>
 
 <p><a href="https://arxiv.org/abs/2510.10689" target="_blank">Paper</a></p>
 
